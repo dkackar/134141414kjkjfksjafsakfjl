@@ -25,7 +25,6 @@ describe Weapon do
       expect(weapon.name).to eq("FooWeapon")
     end
 
-
     it 'raises an ArgumentError when no name is passed' do
       expect { Weapon.new }.to raise_error(ArgumentError)
     end
@@ -108,9 +107,9 @@ describe Weapon do
   end
 
 
-  # ------------------------------------
-  # #picked_up?
-  # ------------------------------------
+  # # ------------------------------------
+  # # #picked_up?
+  # # ------------------------------------
 
 
   describe '#picked_up?' do
@@ -128,4 +127,3 @@ describe Weapon do
 
 
 end
-
